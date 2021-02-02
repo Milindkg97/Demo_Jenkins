@@ -13,6 +13,7 @@ pipeline {
         }
       
     }  
+  }
   stage("run backend"){
     
     steps{
@@ -22,6 +23,6 @@ pipeline {
           sh './gradlew -v'
         }
     }  
-  
+  }
  }
 }
